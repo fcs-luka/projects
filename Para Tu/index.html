@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para mi Arenita Roarrr 🐯</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="shortcut icon" href="corazonnn.ico" type="image/x-icon">
+</head>
+<body>
+ <audio id="musica" loop>
+  <source src="Illuminati.mp3" type="audio/mpeg" />
+  Tu navegador no soporta música :(
+</audio>
+<button id="playMusica" onclick="document.getElementById('musica').play()">🎵 Reproducir música</button>
+
+
+  <div class="slider">
+    <section class="slide active" id="pagina1">
+      <img src="MiAna1.jpeg" alt="ImgAna1" class="imagen">
+      <h1>Hola mi Anita peciosaaa 🐯💗</h1>
+      <p>Quería hacerte algo distinto... y esto es solo el inicio 🙈</p>
+      <p style="color: rgba(0, 0, 0, 0.247); font-size: 12px;">Amorcito presiona en donde dice "reproducir musica" njksansjd y avanza lento los botones para que lo oigasxd<3</p>
+      <button onclick="cambiarPagina(2)">Siguiente</button>
+    </section>
+
+    <section class="slide" id="pagina2">
+      <img src="MiAna2.jpeg" alt="ImgAna2" class="imagen">
+      <p>
+        Aunque estemos lejos, siento que estás cerquita mi vida:'3
+        Cada mensaje tuyo me alegra el día ><  
+        Eres lo mejor que me esta pasando, Arenita linda... Quiero ser todo de ti... Que me cuentes tus problemas y poder ayudarte amor...
+      </p>
+      <button onclick="cambiarPagina(3)">Siguiente</button>
+    </section>
+
+    <section class="slide" id="pagina3">
+      <img src="MiAna3.jpeg" alt="ImgAna3" class="imagen">
+      <h2>¿Estás molesta? 😳</h2>
+      <div class="botones">
+        <button onclick="responderNo()">No</button>
+        <button onclick="responderSi()">Sí</button>
+      </div>
+      <div id="respuesta" class="nota-animada"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
